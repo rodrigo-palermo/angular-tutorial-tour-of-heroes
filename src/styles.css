@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Color Theme Swatches in Hex */
+:root{
+  --tour-of-heroes-1: #224A94;
+  --tour-of-heroes-2: #E07460;
+  --tour-of-heroes-3: #4A7FE0;
+  --tour-of-heroes-4: #ADE034;
+  --tour-of-heroes-5: #749429;
+}
+
+h1 {
+  color: var(--tour-of-heroes-1);
+  font-family: 'Alegreya Sans SC';
+  font-size: 250%;
+}
+
+h2, h3 {
+  color: var(--tour-of-heroes-3);
+  font-weight: lighter;
+}
+
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cleanButton {
+  background-color: var(--tour-of-heroes-2);
+  padding: 10px;
+  margin-top: 20px;
+  top: 10px;
+  position: relative;
+  font-size: 1.1rem;
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+}
