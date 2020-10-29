@@ -1,4 +1,6 @@
-# MyApp
+# Angular tutorial - Tour of Heroes
+
+Based on [Tour of Heroes app and tutorial](https://angular.io/tutorial#tour-of-heroes-app-and-tutorial)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
